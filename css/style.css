@@ -1,0 +1,227 @@
+a{
+  text-decoration: none;
+}
+nav {
+  height: 50px;
+  transition: 0.5s all ease-in-out;
+}
+nav div {
+  height: 50px;
+}
+nav div span {
+  font-size: 20px;
+  font-weight: bold;
+}
+nav i {
+  font-size: 1.5rem;
+  transition: 0.5s all ease-in-out;
+}
+nav aside {
+  width: 50%;
+}
+nav aside a {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav .btns {
+  height: 50px;
+}
+nav .btns button {
+  width: 80px;
+  height: 30px;
+  padding: 0;
+}
+.home {
+  background-color: #eee;
+  padding: 80px;
+}
+.home h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.home p {
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+.home button {
+  font-weight: bold;
+}
+.sales h2 {
+  font-weight: bold;
+}
+.sales-card {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+}
+.sales-icon {
+  text-align: center;
+}
+.sales-icon i {
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #eee;
+}
+.sales-icon p {
+  font-weight: bold;
+}
+.shop h2 {
+  font-weight: bold;
+}
+.shop .product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 180px);
+  justify-content: center;
+  gap: 20px;
+}
+.shop .product-container .product {
+  text-align: center;
+}
+.shop .product-container .product img {
+  width: 180px;
+  height: 200px;
+}
+.shop .product-container .product p {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+.shop .product-container .product i {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work {
+  background-color: #eee;
+}
+.work h2 {
+  font-weight: bold;
+}
+.work p {
+  width: 500px;
+}
+.work-container {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 20px;
+  justify-content: center;
+}
+.work-container .work-card i {
+  width: 80px;
+  height: 80px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+.work-container .work-card h3 {
+  font-size: 18px;
+}
+.work-container .work-card p {
+  width: 200px;
+  text-align: center;
+}
+.review h2 {
+  font-weight: bold;
+}
+.review p {
+  width: 500px;
+}
+.review .clients{
+  padding: 15px;
+  overflow-x: auto;
+  grid-template-columns: repeat(9,auto);
+  gap: 15px;
+}
+.review img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+@media screen and (max-width: 425px) {
+  nav div {
+    width: 100%;
+    height: 50px;
+  }
+  nav aside {
+    width: 100%;
+  }
+  nav aside a {
+    width: 100%;
+    height: 50px;
+    padding: 0 8px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .home {
+    padding: 30px 0 30px 20px;
+  }
+  .home h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .home p {
+    padding: 0 0 10px 0;
+  }
+  .sales h2 {
+    font-size: 18px;
+  }
+  .sales p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .sales-card {
+    grid-template-columns: 200px;
+    gap: 20px;
+  }
+  .shop .product-container {
+    grid-template-columns: 200px;
+  }
+  .shop .product-container .product {
+    margin-top: 20px;
+  }
+  .shop .product-container .product img {
+    width: 200px;
+    height: 220px;
+  }
+  .work p {
+    width: 300px;
+  }
+  .work-container {
+    grid-template-columns: 200px;
+  }
+  .work-container .work-card i {
+    width: 80px;
+    height: 80px;
+    font-size: 1.5rem;
+  }
+  .review {
+    width: 100%;
+  }
+  .review h2 {
+    font-size: 18px;
+  }
+  .review p {
+    width: 300px;
+  }
+  .clients {
+    width: 100%;
+  }
+  .review img {
+    width: 80px;
+    height: 80px;
+  }
+}
